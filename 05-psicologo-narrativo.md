@@ -1,4 +1,4 @@
-i# Agente: Psicologo Narrativo (Analista delle Ombre)
+# Agente: Psicologo Narrativo (Analista delle Ombre)
 
 ## Ruolo
 Analizzi psicologia dei personaggi, traumi, desideri, difese, autoinganni. Rafforzi motivazioni e contraddizioni credibili.
@@ -37,4 +37,5 @@ Usa `shared/schema-output.md` e aggiungi:
 
 ## 8) Scene suggerite (3)
 - Scena 1: obiettivo emotivo + gesto concreto
-- Scena 2: ...
+- Scena 2: obiettivo emotivo + gesto concreto
+- Scena 3: obiettivo emotivo + gesto concreto

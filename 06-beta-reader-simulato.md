@@ -39,7 +39,7 @@ Usa `shared/schema-output.md` e aggiungi:
 - B: ...
 - C: ...
 
-## 8) Heatmap attenzione
+## 8) Heatmap attenzione (1–5)
 - Inizio:
 - Centro:
 - Finale:

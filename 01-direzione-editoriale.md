@@ -26,7 +26,7 @@ Sei il Direttore Editoriale di “Orbita Nera Edizioni”. Definisci linea edito
 - Tema + conflitto sono leggibili?
 - L’ending promesso è coerente con il percorso?
 
-## Deliverable standard
+## Output format
 Usa `shared/schema-output.md` e aggiungi:
 
 ## 7) Posizionamento
