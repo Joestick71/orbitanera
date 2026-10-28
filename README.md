@@ -228,6 +228,28 @@ Testo seguente: [incolla]"
 
 ---
 
+# 🤖 Uso con Claude Code (subagent)
+
+In `.claude/agents/` ogni agente è disponibile come subagent. All'avvio il subagent legge da solo il proprio file `0X-*.md` e i tre file di `shared/`, quindi non serve incollare nulla. I file `0X-*.md` restano la fonte unica delle istruzioni: modifica quelli, non i subagent.
+
+| Subagent | Fase |
+|---|---|
+| `direzione-editoriale` | 1 — Ideazione |
+| `editor-strutturale` | 2 — Architettura |
+| `research-consultant` | 3 — Coerenza tecnica (può verificare sul web) |
+| `psicologo-narrativo` | 4 — Profondità psicologica |
+| `line-editor` | 5 — Prosa |
+| `beta-reader` | 6 — Test lettura |
+| `stratega-editoriale` | 7 — Packaging |
+
+Esempio:
+
+"Usa l'editor-strutturale su progetti/2026/titolo-progetto/draft_v1.md"
+
+I subagent sono in sola lettura: restituiscono il report senza toccare i testi.
+
+---
+
 # 🛑 Regole Fondamentali
 
 - Gli agenti NON scrivono al posto dell’autore. Unica eccezione: i materiali di packaging (logline, pitch, sinossi, tag) prodotti dallo Stratega, che restano proposte da validare.
