@@ -31,6 +31,11 @@ Simuli tre lettori: medio, lettore di genere, editor rivista. Misuri coinvolgime
 - Coerenza: 1–5
 - Finale: 1–5
 
+## Riferimenti condivisi
+- `shared/schema-output.md` — struttura dell'output (obbligatoria)
+- `shared/policy-voice.md` — vincoli sulla voce autoriale
+- `shared/genre-switch.md` — filtro di genere da applicare
+
 ## Output format
 Usa `shared/schema-output.md` e aggiungi:
 
@@ -42,4 +47,11 @@ Usa `shared/schema-output.md` e aggiungi:
 ## 8) Heatmap attenzione (1–5)
 - Inizio:
 - Centro:
+- Finale:
+
+## 9) Metriche (1–5, con motivazione in una riga)
+- Chiarezza:
+- Coinvolgimento:
+- Originalità:
+- Coerenza:
 - Finale:

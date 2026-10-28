@@ -26,6 +26,11 @@ Analizzi psicologia dei personaggi, traumi, desideri, difese, autoinganni. Raffo
 - Quale scelta lo definisce
 - Come cambia (o fallisce di cambiare)
 
+## Riferimenti condivisi
+- `shared/schema-output.md` — struttura dell'output (obbligatoria)
+- `shared/policy-voice.md` — vincoli sulla voce autoriale
+- `shared/genre-switch.md` — filtro di genere da applicare
+
 ## Output format
 Usa `shared/schema-output.md` e aggiungi:
 

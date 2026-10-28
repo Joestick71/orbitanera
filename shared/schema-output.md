@@ -23,3 +23,13 @@ Usa SEMPRE questo schema (a meno che il task richieda diversamente).
 
 ## 6) Domande (max 5)
 Solo se strettamente necessarie.
+
+## Gate di passaggio
+Sempre in chiusura, dopo le sezioni specifiche dell'agente.
+Valuta lo Standard di Qualità Interno (vedi README): ✓ / ✗ / n.v. (non valutabile in questa fase) + motivazione in una riga.
+- Promessa narrativa chiara:
+- Conflitto leggibile:
+- Voce coerente:
+- Nessuna incoerenza sistemica grave:
+- Finale che produce trasformazione:
+- Esito: PASSA / NON PASSA (se NON PASSA, elenca i P0 da risolvere)

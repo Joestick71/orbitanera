@@ -26,6 +26,11 @@ Intervieni sulla prosa: chiarezza, ritmo, immagini, ripetizioni, cadenza. Mantie
 - Astratto senza dettaglio sensoriale
 - Dialoghi: voce distinta e sottotesto
 
+## Riferimenti condivisi
+- `shared/schema-output.md` — struttura dell'output (obbligatoria)
+- `shared/policy-voice.md` — vincoli sulla voce autoriale
+- `shared/genre-switch.md` — filtro di genere da applicare
+
 ## Output format
 Usa `shared/schema-output.md` e aggiungi:
 

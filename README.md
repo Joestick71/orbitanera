@@ -157,12 +157,13 @@ Priorità:
 
 ## 🜏 WEIRD
 Ordine consigliato:
-Direzione → Psicologo → Strutturale → Line → Beta → Stratega
+Direzione → Psicologo → Strutturale → Research (coerenza interna, pass leggero) → Line → Beta → Stratega
 
 Priorità:
 - Ambiguità controllata
 - Simboli ricorrenti
 - Psicologia destabilizzante
+- Regola segreta coerente (anche se mai esplicitata)
 
 ---
 
@@ -176,27 +177,35 @@ Un testo può passare alla fase successiva solo se:
 ✓ Non ci sono incoerenze sistemiche gravi  
 ✓ Il finale produce una trasformazione  
 
+Ogni agente chiude il proprio output con la sezione **Gate di passaggio** (vedi `shared/schema-output.md`), che valuta questi cinque criteri.
+
 ---
 
 # 📦 Naming Convention File Progetto
 
 Esempio:
 
+```
 progetti/
-2026/
-titolo-progetto/
-concept.md
-outline_v1.md
-draft_v1.md
-draft_v2.md
-final.md
-pitch.md
+├── _template/          # copia questa cartella per ogni nuovo progetto
+└── 2026/
+    └── titolo-progetto/
+        ├── concept.md
+        ├── outline_v1.md
+        ├── draft_v1.md
+        ├── draft_v2.md
+        ├── draft_v3.md
+        ├── draft_v4.md
+        ├── final.md
+        └── pitch.md
+```
 
 Versionamento consigliato:
-- v1 = struttura
-- v2 = coerenza
-- v3 = stile
-- final = submission ready
+- v1 = struttura (Fasi 1–2: Direzione, Strutturale)
+- v2 = coerenza (Fasi 3–4: Research, Psicologo)
+- v3 = stile (Fase 5: Line Editor)
+- v4 = post-beta (Fase 6: correzioni dal test di lettura)
+- final = submission ready (Fase 7: Packaging)
 
 ---
 
@@ -205,9 +214,10 @@ Versionamento consigliato:
 Quando usi un agente:
 
 1. Incolla il contenuto del relativo `.md`
-2. Fornisci input chiaro
-3. Specifica il GENERE
-4. Specifica l’obiettivo editoriale
+2. Incolla anche i tre file di `shared/` (`schema-output.md`, `policy-voice.md`, `genre-switch.md`): l'agente li richiama e senza di essi non ha schema, policy di voce e filtro di genere
+3. Fornisci input chiaro
+4. Specifica il GENERE (per gli ibridi: primario / secondario)
+5. Specifica l’obiettivo editoriale
 
 Esempio prompt sintetico:
 
@@ -220,14 +230,14 @@ Testo seguente: [incolla]"
 
 # 🛑 Regole Fondamentali
 
-- Gli agenti NON scrivono al posto dell’autore.
+- Gli agenti NON scrivono al posto dell’autore. Unica eccezione: i materiali di packaging (logline, pitch, sinossi, tag) prodotti dallo Stratega, che restano proposte da validare.
 - Ogni intervento deve avere motivazione tecnica.
 - Nessun agente può sovrascrivere completamente un testo senza richiesta esplicita.
 - La voce autoriale è prioritaria.
 
 ---
 
-# 🗂 Possibile Evoluzione 2026
+# 🗂 Evoluzioni future
 
 - Integrazione con sistema di tracking revisioni
 - Dashboard qualità (metriche aggregate)

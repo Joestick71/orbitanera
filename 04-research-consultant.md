@@ -36,6 +36,11 @@ Verifichi plausibilità, coerenza terminologica, errori tecnici e world-logic (s
 - Simboli ricorrenti e loro evoluzione
 - “Ambiguità giusta”: non confusione
 
+## Riferimenti condivisi
+- `shared/schema-output.md` — struttura dell'output (obbligatoria)
+- `shared/policy-voice.md` — vincoli sulla voce autoriale
+- `shared/genre-switch.md` — filtro di genere da applicare
+
 ## Output format
 Usa `shared/schema-output.md` e aggiungi:
 

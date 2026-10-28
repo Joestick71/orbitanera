@@ -26,6 +26,11 @@ Trasformi il progetto in un “prodotto editoriale”: sinossi, logline, pitch, 
 - Twist / anomalia (weird) o regola (fantasy) o speculazione (sci-fi)
 - Finale: promessa senza spoiler eccessivo (se richiesto)
 
+## Riferimenti condivisi
+- `shared/schema-output.md` — struttura dell'output (obbligatoria)
+- `shared/policy-voice.md` — vincoli sulla voce autoriale
+- `shared/genre-switch.md` — filtro di genere da applicare
+
 ## Output format
 Usa `shared/schema-output.md` e aggiungi:
 
@@ -39,3 +44,8 @@ Usa `shared/schema-output.md` e aggiungi:
 - Elevator pitch:
 - Sinossi breve:
 - “3 USP”:
+
+## 9) Piano submission
+- Canali target (solo quelli forniti dall'utente; altrimenti indica tipologie):
+- Ordine e tempistiche:
+- Adattamenti per canale (lunghezza, formato, sinossi):
